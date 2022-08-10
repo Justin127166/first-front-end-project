@@ -1,0 +1,22 @@
+#btn{
+    color:red;
+    background-color: aqua;
+    position: relative;
+    border-width: 2px;
+}
+/* 
+body{
+    background-color: beige;
+} */
+
+body{
+    background-image: radial-gradient( rgb(220, 116, 116), rgb(216, 216, 123));
+    height: 100%;
+    width: 100%;
+  }
+
+  #quotebox{
+    align-items: center;
+    border-width: 2px;
+    border-color: deeppink;
+  }
