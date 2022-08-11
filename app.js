@@ -8,7 +8,7 @@ function btnQuote(){
     btn.id = 'btn'
     btnctn.createClassName = '1stbtnclassname'
     btnctn.append(btn)
-    btn.innerText = 'What you need to hear'
+    btn.innerText = 'RANDOM ANIME QUOTE'
     document.body.append(btn)
     btn.addEventListener('click', function(){
         hideQuoteBox()
@@ -26,11 +26,13 @@ function quoteUrl(){
 function getquote(data){
     // const quoteBox = document.createElement('div')
     // quoteBox.id = 'quotebox'
+    var anime = data.anime
+    anime.ClassName = 'wee'
     const quoteBox = document.getElementById('quoteBox')
     quoteBox.innerText = `Anime: ${data.anime} 
-
-    Character: ${data.character} 
     
+    Character: ${data.character} 
+
     Quote: ${data.quote}`
     // body.append(quoteBox)
 }
