@@ -12,7 +12,7 @@
 }
 
 body{
-    background-image: url('backfground\ forest.jpg');
+    background-image: url('snow\ gif.gif');
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -22,10 +22,12 @@ body{
   }
 
   #quoteBox{
-    color: rgb(10, 99, 177);
+    color: rgba(2, 27, 154, 0.732);
+    background-color: darkgray;
+    margin-right: 400px;
+    margin-left: 400px;
     font-style: italic;
     font-size: large;
-    display: flexbox;
     justify-content: center; 
   }
 

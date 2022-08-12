@@ -13,7 +13,6 @@ function btnQuote(){
     btn.addEventListener('click', function(){
         hideQuoteBox()
         quoteUrl()
-
     })
     
 }
@@ -24,20 +23,15 @@ function quoteUrl(){
 
 
 function getquote(data){
-    // const quoteBox = document.createElement('div')
-    // quoteBox.id = 'quotebox'
-    var anime = data.anime
-    anime.ClassName = 'wee'
     const quoteBox = document.getElementById('quoteBox')
     quoteBox.innerText = `Anime: ${data.anime} 
     
     Character: ${data.character} 
 
     Quote: ${data.quote}`
-    // body.append(quoteBox)
 }
 
 function hideQuoteBox(){
     const quoteCtn = document.getElementById('quotebox')
-    $(quoteCtn).empty()
+    $(quoteCtn).remove()
 }
